@@ -1,7 +1,7 @@
 //提供给前端的AJAX调用的接口的地址，url地址
 const express = require('express');
 const async =require('async');
-const BannerModel = require('../models/banner');
+const BannerModel = require('../models/bannerModel');
 const router = express.Router();
 
 //添加banner -http://localhost:3000/banner/add
